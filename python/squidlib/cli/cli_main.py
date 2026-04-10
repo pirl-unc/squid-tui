@@ -21,7 +21,7 @@ from squidlib import __version__
 
 def run():
     parser = argparse.ArgumentParser(
-        prog="squid",
+        prog="squid-tui",
         description="SQUID: Slurm QUeue Interactive Dashboard",
     )
     parser.add_argument(

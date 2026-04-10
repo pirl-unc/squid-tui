@@ -46,4 +46,4 @@ where = ["python"]
 testpaths = ["tests"]
 
 [project.scripts]
-squid = "squidlib.cli.cli_main:run"
+squid-tui = "squidlib.cli.cli_main:run"

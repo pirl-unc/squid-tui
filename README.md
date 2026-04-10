@@ -1,8 +1,6 @@
-# squid
+# Squid
 
-**SQUID**: **S**lurm **QU**eue **I**nteractive **D**ashboard
-
-A terminal UI (TUI) for monitoring, organizing, and managing SLURM jobs.
+Squid (**S**lurm **QU**eue **I**nteractive **D**ashboard) is a terminal UI (TUI) for monitoring, organizing, and managing SLURM jobs.
 Built with [Textual](https://github.com/Textualize/textual).
 
 ![squid demo](screenshots/demo.png)
@@ -32,11 +30,11 @@ pip install .
 ## 03. Usage
 
 ```bash
-squid                  # Show your jobs (uses $USER)
-squid --all            # Show jobs for all users
-squid --user alice     # Show jobs for a specific user
-squid --refresh 60     # Set auto-refresh to 60 seconds
-squid --version        # Print version
+squid-tui                  # Show your jobs (uses $USER)
+squid-tui --all            # Show jobs for all users
+squid-tui --user alice     # Show jobs for a specific user
+squid-tui --refresh 60     # Set auto-refresh to 60 seconds
+squid-tui --version        # Print version
 ```
 
 ## 04. Demo
