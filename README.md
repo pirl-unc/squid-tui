@@ -1,5 +1,7 @@
 # Squid
 
+[![CI](https://github.com/pirl-unc/squid/actions/workflows/ci.yml/badge.svg)](https://github.com/pirl-unc/squid/actions/workflows/ci.yml)
+
 Squid (**S**lurm **QU**eue **I**nteractive **D**ashboard) is a terminal UI (TUI) for monitoring, organizing, and managing SLURM jobs.
 Built with [Textual](https://github.com/Textualize/textual).
 
