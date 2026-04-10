@@ -11,12 +11,12 @@ Built with [Textual](https://github.com/Textualize/textual).
 
 - **Tabbed job views** — Pending, Active, and History tabs with color-coded job states
 - **Job history** — Completed, failed, cancelled, and timed-out jobs from the last 24 hours
-- **Custom lists** — Organize jobs into kanban-style lists (e.g. "ML Training", "Bioinformatics")
+- **Custom lists** — Organize jobs into lists (e.g. "ML Training", "Bioinformatics")
 - **Job actions** — Cancel jobs, view detailed `scontrol`/`sacct` output, tail stdout/stderr
-- **Multi-select** — Toggle select mode (`v`), pick jobs with `space` or shift+arrows, then act on all at once
+- **Multi-select** — Toggle select mode (`v`), select jobs with `space` or arrows, then act on all at once
 - **Search** — Filter jobs by name or ID with `/`
 - **Notes** — Annotate any job with a short note, persisted across sessions
-- **Copy job ID** — Yank job IDs to the system clipboard (`y`)
+- **Copy job ID** — Copy job IDs to the system clipboard (`y`)
 - **Cluster overview** — Partition summary and per-node detail (`sinfo -N`) in a dedicated sidebar section
 - **Auto-refresh** — Configurable refresh interval (default: 180s)
 - **Persistent config** — Lists, assignments, and notes saved to `~/.squid.json`
