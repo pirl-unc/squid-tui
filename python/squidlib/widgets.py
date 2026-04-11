@@ -99,7 +99,7 @@ class TwoRowFooter(Widget):
         mid = ceil(len(bindings) / 2)
         with Horizontal():
             for b in bindings[:mid]:
-                yield FooterButton(b.binding.key, b.binding.action, b.binding.description)
+                yield FooterButton(b.binding.key_display or b.binding.key, b.binding.action, b.binding.description)
         with Horizontal():
             for b in bindings[mid:]:
-                yield FooterButton(b.binding.key, b.binding.action, b.binding.description)
+                yield FooterButton(b.binding.key_display or b.binding.key, b.binding.action, b.binding.description)

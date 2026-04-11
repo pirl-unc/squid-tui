@@ -71,7 +71,7 @@ from .widgets import SelectableDataTable, SelectionChanged, TwoRowFooter
 class SquidApp(App):
     """SLURM job manager with kanban-style lists."""
 
-    TITLE = "squid"
+    TITLE = "squid-tui"
     SUB_TITLE = "Slurm QUeue Interactive Dashboard"
 
     BINDINGS = [
@@ -87,9 +87,9 @@ class SquidApp(App):
         Binding("v", "toggle_select_mode", "Toggle Select Mode", priority=True),
         Binding("i", "view_detail", "Job Detail", priority=True),
         Binding("o", "view_output", "Job Output", priority=True),
-        Binding("escape", "exit_select_mode", "Clear Selection", priority=True),
+        Binding("escape", "exit_select_mode", "Clear Selection", priority=True, key_display="esc"),
         Binding("y", "yank_ids", "Copy Job ID", priority=True),
-        Binding("/", "search", "Search", priority=True),
+        Binding("/", "search", "Search", priority=True, key_display="/"),
         Binding("r", "refresh", "Refresh", priority=True),
         Binding("s", "set_refresh", "Set Refresh", priority=True),
         Binding("q", "quit", "Quit"),

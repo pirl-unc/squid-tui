@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Squid demo with simulated SLURM data.
+Squid-TUI demo with simulated SLURM data.
 
 Run:  PYTHONPATH=python python examples/demo.py
 
 Screenshot:
     python examples/demo.py --screenshot screenshots/demo.png
 
-This launches squid with fake job and partition data so you can take
+This launches squid-tui with fake job and partition data so you can take
 screenshots without needing a real SLURM cluster.
 """
 
@@ -137,7 +137,7 @@ class DemoSquidApp(SquidApp):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Squid demo with simulated SLURM data")
+    parser = argparse.ArgumentParser(description="Squid-TUI demo with simulated SLURM data")
     parser.add_argument(
         "--screenshot",
         metavar="PATH",

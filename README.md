@@ -1,11 +1,9 @@
-# Squid
+# Squid-TUI
 
 [![CI](https://github.com/pirl-unc/squid/actions/workflows/ci.yml/badge.svg)](https://github.com/pirl-unc/squid/actions/workflows/ci.yml)
 
-Squid (**S**lurm **QU**eue **I**nteractive **D**ashboard) is a terminal UI (TUI) for monitoring, organizing, and managing SLURM jobs.
-Built with [Textual](https://github.com/Textualize/textual).
-
-![squid demo](screenshots/demo.png)
+**squid-tui** (**S**lurm **QU**eue **I**nteractive **D**ashboard) is a terminal UI (TUI) for monitoring and managing 
+your SLURM jobs, built with [Textual](https://github.com/Textualize/textual).
 
 ## 01. Features
 
@@ -41,7 +39,7 @@ squid-tui --version        # Print version
 
 ## 04. Demo
 
-You can run squid with simulated SLURM data (no cluster required):
+You can run squid-tui with simulated SLURM data (no cluster required):
 
 ```bash
 python examples/demo.py
