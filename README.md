@@ -17,7 +17,7 @@ your SLURM jobs, built with [Textual](https://github.com/Textualize/textual).
 - **Copy job ID** — Copy job IDs to the system clipboard (`y`)
 - **Cluster overview** — Partition summary and per-node detail (`sinfo -N`) in a dedicated sidebar section
 - **Auto-refresh** — Configurable refresh interval (default: 180s)
-- **Persistent config** — Lists, assignments, and notes saved to `~/.squid.json`
+- **Persistent config** — Lists, assignments, and notes saved to `~/.squid_tui.json`
 
 ## 02. Installation
 

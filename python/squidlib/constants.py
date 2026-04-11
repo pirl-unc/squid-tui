@@ -17,7 +17,7 @@ from pathlib import Path
 from rich.text import Text
 
 
-CONFIG_PATH = Path.home() / ".squid.json"
+CONFIG_PATH = Path.home() / ".squid_tui.json"
 ALL_JOBS = "All Jobs"
 UNASSIGNED = "Unassigned"
 PARTITIONS = "Partitions"
