@@ -16,7 +16,7 @@ requires = ["setuptools>=65", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "squid"
+name = "squid-tui"
 version = "0.0.1"
 requires-python = ">=3.10"
 keywords = [
