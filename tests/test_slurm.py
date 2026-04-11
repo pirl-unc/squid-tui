@@ -27,7 +27,7 @@ from squidlib.slurm import (
 
 class TestLoadConfig:
     def test_valid_json(self, tmp_path):
-        config_file = tmp_path / ".squid.json"
+        config_file = tmp_path / ".squid_tui.json"
         config_file.write_text('{"lists": {"mylist": ["1"]}, "assignments": {}}')
         with patch("squidlib.slurm.CONFIG_PATH", config_file):
             result = load_config()
@@ -40,7 +40,7 @@ class TestLoadConfig:
         assert result == {"lists": {}, "assignments": {}}
 
     def test_invalid_json(self, tmp_path):
-        config_file = tmp_path / ".squid.json"
+        config_file = tmp_path / ".squid_tui.json"
         config_file.write_text("not valid json{{{")
         with patch("squidlib.slurm.CONFIG_PATH", config_file):
             result = load_config()
@@ -49,7 +49,7 @@ class TestLoadConfig:
 
 class TestSaveConfig:
     def test_writes_json_with_permissions(self, tmp_path):
-        config_file = tmp_path / ".squid.json"
+        config_file = tmp_path / ".squid_tui.json"
         with patch("squidlib.slurm.CONFIG_PATH", config_file):
             save_config({"lists": {}, "notes": {}})
         data = json.loads(config_file.read_text())

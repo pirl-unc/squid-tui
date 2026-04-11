@@ -27,4 +27,4 @@ htmlcov/
 .coverage
 
 # Config
-.squid.json
+.squid_tui.json
