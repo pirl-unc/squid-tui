@@ -25,8 +25,10 @@ your SLURM jobs, built with [Textual](https://github.com/Textualize/textual).
 
 Requires Python 3.10+.
 
+**Dependencies:** [Textual](https://github.com/Textualize/textual) >= 0.40.0 (installed automatically).
+
 ```bash
-pip install .
+pip install squid-tui
 ```
 
 ## 03. Usage
