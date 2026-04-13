@@ -17,7 +17,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "squid-tui"
-version = "0.0.1"
+version = "0.0.2"
+readme = "README.md"
 requires-python = ">=3.10"
 keywords = [
     "slurm",
@@ -32,6 +33,11 @@ classifiers = [
 dependencies = [
     "textual>=0.40.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/pirl-unc/squid-tui"
+Repository = "https://github.com/pirl-unc/squid-tui"
+Issues = "https://github.com/pirl-unc/squid-tui/issues"
 
 [project.optional-dependencies]
 dev = [
