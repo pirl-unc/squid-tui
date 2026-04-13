@@ -5,6 +5,8 @@
 **squid-tui** (**S**lurm **QU**eue **I**nteractive **D**ashboard) is a terminal UI (TUI) for monitoring and managing 
 your SLURM jobs, built with [Textual](https://github.com/Textualize/textual).
 
+![Squid-TUI Demo](screenshots/demo.png)
+
 ## 01. Features
 
 - **Tabbed job views** — Pending, Active, and History tabs with color-coded job states
